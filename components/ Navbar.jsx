@@ -1,6 +1,7 @@
 import Link from "next/link.js";
 import React from "react";
 import { AiOutlineShopping } from "react-icons/ai";
+import { Cart } from "./";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
         <AiOutlineShopping />
         <span className="cart-item-qty">1</span>
       </button>
+      <Cart />
     </div>
   );
 };
